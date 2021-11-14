@@ -28,7 +28,7 @@ go run client.go
 ```
 
 ### Installation Problems
-In case of problems related to protoc try executing the steps mentioned in generate.sh or try 
+In case of problems related to protoc try executing the steps mentioned in [Generate.sh](generate.sh) or try 
 ```bash
 buf generate 
 ```
