@@ -15,5 +15,8 @@ echo 'export PATH=$PATH:$GOPATH/bin' >> $HOME/.bashrc
 
 source $HOME/.bashrc
 
+// To kill the currently running process on port 8080 in case the port is blocked for use.
 
 sudo lsof -i -P -n | grep 8080    
+
+kill -9 <pid>
